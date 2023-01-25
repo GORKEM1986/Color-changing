@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+
+
+
+.nav-center h4{
+    display: flex;
+    height: 3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 10rem;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    border: 2px solid red;
+    border-radius: 10px 0px 10px;
+    background-color: aqua;
+    width: 5rem;
+    font-weight: 700;
+    
+
+
+
+}
+.container h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+
+}
+
+.btn-hero{
+    margin-top: 10rem;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 10px 0px 10px;
+    color:brown;
+    background-color: aquamarine;
+}
